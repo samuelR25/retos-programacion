@@ -1,0 +1,11 @@
+name: Stats
+
+on:
+push:
+  branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-lates
+
+    steps:
