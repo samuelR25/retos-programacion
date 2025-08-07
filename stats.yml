@@ -19,3 +19,12 @@ jobs:
 
     - name: Run script
       run: python ./Roadmap/stats.py
+
+    - nme: Commit and Push changes
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: Update stats
+        commit_user_name: samuelR25 [GitHub Actions]
+        commit_user_email: samuelrincones31@gmail.com
+        commit_author: Samuel JR
+        
